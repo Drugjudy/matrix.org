@@ -8,6 +8,7 @@ language = "Javascript"
 last_release = "2023-02-14"
 maturity = "Beta"
 repo = "https://github.com/vector-im/hydrogen-web"
+website = "https://hydrogen.element.io/#/login"
 featured = false
 [extra.features]
 e2ee = true

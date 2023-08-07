@@ -7,6 +7,7 @@ language = "Go"
 last_release = "2022-11-19"
 maturity = "Beta"
 repo = "https://github.com/tulir/gomuks"
+website = "https://maunium.net/go/gomuks/"
 matrix_room = "#gomuks:maunium.net"
 featured = false
 [extra.features]

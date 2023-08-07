@@ -27,6 +27,12 @@
                     Documentation
                 </a>
                 {% endif %}
+                {% if page.extra.website %}
+                <a href="{{ page.extra.website }}" class="pill">
+                    {{ load_data(path="/assets/website.svg") | safe }}
+                    Website
+                </a>
+                {% endif %}
                 {% if page.extra.matrix_room %}
                 <a href="https://matrix.to/#/{{ page.extra.matrix_room }}" class="pill">
                     {{ load_data(path="/assets/support.svg") | safe }}
